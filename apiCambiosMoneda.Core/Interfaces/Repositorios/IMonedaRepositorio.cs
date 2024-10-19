@@ -31,5 +31,6 @@ namespace apiCambiosMoneda.Core.Interfaces.Repositorios
         /********** CONSULTAS **********/
 
 
+
     }
 }

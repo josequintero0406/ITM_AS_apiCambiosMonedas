@@ -8,12 +8,19 @@ namespace apiCambiosMoneda.Dominio.Entidades
     {
         [Column("Id")]
         public int Id { get; set; }
+
         [Column("Moneda"), StringLength(100)]
         public String Nombre { get; set; }
+
         [Column("Sigla"), StringLength(5)]
         public String Sigla { get; set; }
+
         [Column("Emisor"), StringLength(100)]
         public String? Emisor { get; set; }
+
+        [Column("Simbolo"), StringLength(5)]
+        public String? Simbolo { get; set; }
+
 
     }
 }

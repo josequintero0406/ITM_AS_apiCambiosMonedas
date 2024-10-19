@@ -34,12 +34,14 @@ namespace apiCambiosMoneda.Infraestructura.Repositorio.Contextos
             modelBuilder.Entity<Pais>()
               .HasOne(p => p.Moneda)
               .WithMany()
-              .HasForeignKey(p => p.IdMoneda);
+              .HasForeignKey(p => p.IdMoneda)
+              .IsRequired(false); 
 
             modelBuilder.Entity<CambioMoneda>()
                .HasOne(cm => cm.Moneda)
                .WithMany()
-               .HasForeignKey(cm => cm.IdMoneda);
+               .HasForeignKey(cm => cm.IdMoneda)
+               .IsRequired(false); 
         }
 
     }

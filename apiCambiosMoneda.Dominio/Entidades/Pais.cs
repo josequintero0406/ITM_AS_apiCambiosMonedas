@@ -16,6 +16,6 @@ namespace apiCambiosMoneda.Dominio.Entidades
         public string CodigoAlfa3 { get; set; }
         [Column("IdMoneda")]
         public int IdMoneda { get; set; }
-        public Moneda Moneda { get; set; }
+        public Moneda? Moneda { get; set; }
     }
 }

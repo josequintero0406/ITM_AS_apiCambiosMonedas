@@ -1,7 +1,6 @@
 ﻿using apiCambiosMoneda.Dominio.Entidades;
 using apiCambiosPais.Core.Interfaces.Servicios;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.SqlServer.Server;
 
 namespace apiCambiosMoneda.Presentacion.Controllers
 {
