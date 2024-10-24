@@ -19,7 +19,7 @@ namespace apiCambiosMoneda.Infraestructura.Repositorio.Repositorios
         {
             return (Pais)(await context.Paises
                 .Include(item => item.Moneda) // Incluye la moneda
-                .FirstOrDefaultAsync(item => item.Id == Id));
+                .FirstOrDefaultAsync(item => item.Id == Id))!;
         }
 
         public async Task<IEnumerable<Pais>> ObtenerTodos()
@@ -35,7 +35,7 @@ namespace apiCambiosMoneda.Infraestructura.Repositorio.Repositorios
                                    .Where(item => (Tipo == 0 && item.Nombre.Contains(Dato))
                                    || (Tipo == 1 && item.CodigoAlfa2.Contains(Dato))
                                    || (Tipo == 2 && item.CodigoAlfa3.Contains(Dato))
-                                   || (Tipo == 3 && item.Moneda.Nombre.Contains(Dato))) // Filtrar elementos 
+                                   || (Tipo == 3 && item.Moneda!.Nombre.Contains(Dato))) // Filtrar elementos 
                                    .Include(item => item.Moneda) // Incluye la moneda
                                    .ToListAsync(); // Convertir a una lista IEnumerable<Pais>
         }
@@ -51,11 +51,11 @@ namespace apiCambiosMoneda.Infraestructura.Repositorio.Repositorios
             var paisExistente = await context.Paises.FindAsync(Pais.Id);
             if (paisExistente == null)
             {
-                return null;
+                return null!;
             }
             context.Entry(paisExistente).CurrentValues.SetValues(Pais);
             await context.SaveChangesAsync();
-            return (Pais)(await context.Paises.FindAsync(Pais.Id));
+            return (Pais)(await context.Paises.FindAsync(Pais.Id))!;
         }
 
         public async Task<bool> Eliminar(int Id)

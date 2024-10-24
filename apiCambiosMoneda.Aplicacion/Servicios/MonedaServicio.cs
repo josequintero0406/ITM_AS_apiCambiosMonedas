@@ -7,40 +7,73 @@ namespace apiCambiosMoneda.Aplicacion.Servicios
     public class MonedaServicio : IMonedaServicio
     {
         private readonly IMonedaRepositorio repositorio;
-
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        /// <param name="repositorio"></param>
         public MonedaServicio(IMonedaRepositorio repositorio)
         {
             this.repositorio = repositorio;
         }
-
-        public Task<IEnumerable<Moneda>> ObtenerTodos()
+        /// <summary>
+        /// Listar todas las monedas
+        /// </summary>
+        /// <returns></returns>
+        /// <exception cref="NotImplementedException"></exception>
+        public async Task<IEnumerable<Moneda>> ObtenerTodos()
         {
-            throw new NotImplementedException();
+            return await repositorio.ObtenerTodos();
         }
-
-        public Task<Moneda> Obtener(int Id)
+        /// <summary>
+        /// Obtener datos de moneda especifica
+        /// </summary>
+        /// <param name="Id"></param>
+        /// <returns></returns>
+        /// <exception cref="NotImplementedException"></exception>
+        public async Task<Moneda> Obtener(int Id)
         {
-            throw new NotImplementedException();
+           return await repositorio.Obtener(Id);
         }
-
-        public Task<IEnumerable<Moneda>> Buscar(int Tipo, string Dato)
+        /// <summary>
+        /// Buscar una moneda
+        /// </summary>
+        /// <param name="Tipo"></param>
+        /// <param name="Dato"></param>
+        /// <returns></returns>
+        /// <exception cref="NotImplementedException"></exception>
+        public async Task<IEnumerable<Moneda>> Buscar(int Tipo, string Dato)
         {
-            throw new NotImplementedException();
+            return await repositorio.Buscar(Tipo, Dato);
         }
-
-        public Task<Moneda> Agregar(Moneda Moneda)
+        /// <summary>
+        /// Agregar una nueva moneda
+        /// </summary>
+        /// <param name="Moneda"></param>
+        /// <returns></returns>
+        /// <exception cref="NotImplementedException"></exception>
+        public async Task<Moneda> Agregar(Moneda Moneda)
         {
-            throw new NotImplementedException();
+            return await repositorio.Agregar(Moneda);
         }
-
-        public Task<Moneda> Modificar(Moneda Moneda)
+        /// <summary>
+        /// Modificar datos de una moneda
+        /// </summary>
+        /// <param name="Moneda"></param>
+        /// <returns></returns>
+        /// <exception cref="NotImplementedException"></exception>
+        public async Task<Moneda> Modificar(Moneda Moneda)
         {
-            throw new NotImplementedException();
+            return await repositorio.Modificar(Moneda);
         }
-
-        public Task<bool> Eliminar(int Id)
+        /// <summary>
+        /// Eliminar una moneda
+        /// </summary>
+        /// <param name="Id"></param>
+        /// <returns></returns>
+        /// <exception cref="NotImplementedException"></exception>
+        public async Task<bool> Eliminar(int Id)
         {
-            throw new NotImplementedException();
+            return await repositorio.Eliminar(Id);
         }
 
         /********** CAMBIOS **********/

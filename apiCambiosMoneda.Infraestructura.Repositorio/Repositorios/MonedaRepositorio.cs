@@ -17,7 +17,7 @@ namespace apiCambiosMoneda.Infraestructura.Repositorio.Repositorios
 
         public async Task<Moneda> Obtener(int Id)
         {
-            return (Moneda)(await context.Monedas.FindAsync(Id));
+            return (Moneda)(await context.Monedas.FindAsync(Id))!;
         }
         public async Task<IEnumerable<Moneda>> ObtenerTodos()
         {
@@ -29,7 +29,7 @@ namespace apiCambiosMoneda.Infraestructura.Repositorio.Repositorios
             return await context.Monedas
                                    .Where(item => (Tipo == 0 && item.Nombre.Contains(Dato))
                                    || (Tipo == 1 && item.Sigla.Contains(Dato))
-                                   || (Tipo == 2 && item.Emisor.Contains(Dato)))// Filtrar elementos 
+                                   || (Tipo == 2 && item.Emisor!.Contains(Dato)))// Filtrar elementos 
                                    .ToListAsync(); // Convertir a una lista IEnumerable<Monedas>
         }
 
@@ -45,11 +45,11 @@ namespace apiCambiosMoneda.Infraestructura.Repositorio.Repositorios
             var monedaExistente = await context.Monedas.FindAsync(Moneda.Id);
             if (monedaExistente == null)
             {
-                return null;
+                return null!;
             }
             context.Entry(monedaExistente).CurrentValues.SetValues(Moneda);
             await context.SaveChangesAsync();
-            return (Moneda)(await context.Monedas.FindAsync(Moneda.Id));
+            return (Moneda)(await context.Monedas.FindAsync(Moneda.Id))!;
         }
 
         public async Task<bool> Eliminar(int Id)
@@ -92,11 +92,11 @@ namespace apiCambiosMoneda.Infraestructura.Repositorio.Repositorios
             var cambioExistente = await context.CambiosMoneda.FirstOrDefaultAsync(cm => cm.IdMoneda == Cambio.IdMoneda && cm.Fecha == Cambio.Fecha);
             if (cambioExistente == null)
             {
-                return null;
+                return null!;
             }
             context.Entry(cambioExistente).CurrentValues.SetValues(cambioExistente);
             await context.SaveChangesAsync();
-            return (CambioMoneda)(await context.CambiosMoneda.FirstOrDefaultAsync(cm => cm.IdMoneda == Cambio.IdMoneda && cm.Fecha == Cambio.Fecha));
+            return (await context.CambiosMoneda.FirstOrDefaultAsync(cm => cm.IdMoneda == Cambio.IdMoneda && cm.Fecha == Cambio.Fecha))!;
         }
 
         public async Task<bool> EliminarCambio(int IdMoneda, DateTime Fecha)
@@ -112,7 +112,19 @@ namespace apiCambiosMoneda.Infraestructura.Repositorio.Repositorios
             return true;
         }
 
+        public Task<IEnumerable<CambioMoneda>> ObtenerHistorialCambios(int idMoneda, DateTime desde, DateTime hasta)
+        {
+            throw new NotImplementedException();
+        }
 
+        public Task<CambioMoneda> ObtenerCambioActual(int idMoneda)
+        {
+            throw new NotImplementedException();
+        }
 
+        public Task<IEnumerable<Pais>> ObtenerPaisesPorMoneda(int idMoneda)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

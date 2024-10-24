@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\josem\\source\\repos\\ITM_AS_apiCambiosMonedas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D04DEF3-781E-40A1-B7C2-2CCB30C8F522}|apiCambiosMoneda.Presentacion\\apiCambiosMoneda.Presentacion.csproj|c:\\users\\josem\\source\\repos\\itm_as_apicambiosmonedas\\apicambiosmoneda.presentacion\\inyecciondependencias\\inyecciondependencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D04DEF3-781E-40A1-B7C2-2CCB30C8F522}|apiCambiosMoneda.Presentacion\\apiCambiosMoneda.Presentacion.csproj|solutionrelative:apicambiosmoneda.presentacion\\inyecciondependencias\\inyecciondependencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D04DEF3-781E-40A1-B7C2-2CCB30C8F522}|apiCambiosMoneda.Presentacion\\apiCambiosMoneda.Presentacion.csproj|c:\\users\\josem\\source\\repos\\itm_as_apicambiosmonedas\\apicambiosmoneda.presentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D04DEF3-781E-40A1-B7C2-2CCB30C8F522}|apiCambiosMoneda.Presentacion\\apiCambiosMoneda.Presentacion.csproj|solutionrelative:apicambiosmoneda.presentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D04DEF3-781E-40A1-B7C2-2CCB30C8F522}|apiCambiosMoneda.Presentacion\\apiCambiosMoneda.Presentacion.csproj|c:\\users\\josem\\source\\repos\\itm_as_apicambiosmonedas\\apicambiosmoneda.presentacion\\controllers\\monedacontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D04DEF3-781E-40A1-B7C2-2CCB30C8F522}|apiCambiosMoneda.Presentacion\\apiCambiosMoneda.Presentacion.csproj|solutionrelative:apicambiosmoneda.presentacion\\controllers\\monedacontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D04DEF3-781E-40A1-B7C2-2CCB30C8F522}|apiCambiosMoneda.Presentacion\\apiCambiosMoneda.Presentacion.csproj|c:\\users\\josem\\source\\repos\\itm_as_apicambiosmonedas\\apicambiosmoneda.presentacion\\controllers\\paiscontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D04DEF3-781E-40A1-B7C2-2CCB30C8F522}|apiCambiosMoneda.Presentacion\\apiCambiosMoneda.Presentacion.csproj|solutionrelative:apicambiosmoneda.presentacion\\controllers\\paiscontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CF80B52-61E9-4C6D-AAE7-7E2B7AC4BFC1}|apiCambiosMoneda.Core\\apiCambiosMoneda.Core.csproj|c:\\users\\josem\\source\\repos\\itm_as_apicambiosmonedas\\apicambiosmoneda.core\\interfaces\\servicios\\ipaisservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CF80B52-61E9-4C6D-AAE7-7E2B7AC4BFC1}|apiCambiosMoneda.Core\\apiCambiosMoneda.Core.csproj|solutionrelative:apicambiosmoneda.core\\interfaces\\servicios\\ipaisservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CF80B52-61E9-4C6D-AAE7-7E2B7AC4BFC1}|apiCambiosMoneda.Core\\apiCambiosMoneda.Core.csproj|c:\\users\\josem\\source\\repos\\itm_as_apicambiosmonedas\\apicambiosmoneda.core\\interfaces\\servicios\\imonedaservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CF80B52-61E9-4C6D-AAE7-7E2B7AC4BFC1}|apiCambiosMoneda.Core\\apiCambiosMoneda.Core.csproj|solutionrelative:apicambiosmoneda.core\\interfaces\\servicios\\imonedaservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA0FB3FA-B29D-4FE7-A046-BE876EEE45C0}|apiCambiosMoneda.Aplicacion\\apiCambiosMoneda.Aplicacion.csproj|c:\\users\\josem\\source\\repos\\itm_as_apicambiosmonedas\\apicambiosmoneda.aplicacion\\servicios\\paisservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA0FB3FA-B29D-4FE7-A046-BE876EEE45C0}|apiCambiosMoneda.Aplicacion\\apiCambiosMoneda.Aplicacion.csproj|solutionrelative:apicambiosmoneda.aplicacion\\servicios\\paisservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA0FB3FA-B29D-4FE7-A046-BE876EEE45C0}|apiCambiosMoneda.Aplicacion\\apiCambiosMoneda.Aplicacion.csproj|c:\\users\\josem\\source\\repos\\itm_as_apicambiosmonedas\\apicambiosmoneda.aplicacion\\servicios\\monedaservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA0FB3FA-B29D-4FE7-A046-BE876EEE45C0}|apiCambiosMoneda.Aplicacion\\apiCambiosMoneda.Aplicacion.csproj|solutionrelative:apicambiosmoneda.aplicacion\\servicios\\monedaservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InyeccionDependencias.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\source\\repos\\ITM_AS_apiCambiosMonedas\\apiCambiosMoneda.Presentacion\\InyeccionDependencias\\InyeccionDependencias.cs",
+              "RelativeDocumentMoniker": "apiCambiosMoneda.Presentacion\\InyeccionDependencias\\InyeccionDependencias.cs",
+              "ToolTip": "C:\\Users\\josem\\source\\repos\\ITM_AS_apiCambiosMonedas\\apiCambiosMoneda.Presentacion\\InyeccionDependencias\\InyeccionDependencias.cs",
+              "RelativeToolTip": "apiCambiosMoneda.Presentacion\\InyeccionDependencias\\InyeccionDependencias.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T22:53:06.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\source\\repos\\ITM_AS_apiCambiosMonedas\\apiCambiosMoneda.Presentacion\\Program.cs",
+              "RelativeDocumentMoniker": "apiCambiosMoneda.Presentacion\\Program.cs",
+              "ToolTip": "C:\\Users\\josem\\source\\repos\\ITM_AS_apiCambiosMonedas\\apiCambiosMoneda.Presentacion\\Program.cs",
+              "RelativeToolTip": "apiCambiosMoneda.Presentacion\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T22:52:58.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IMonedaServicio.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\source\\repos\\ITM_AS_apiCambiosMonedas\\apiCambiosMoneda.Core\\Interfaces\\Servicios\\IMonedaServicio.cs",
+              "RelativeDocumentMoniker": "apiCambiosMoneda.Core\\Interfaces\\Servicios\\IMonedaServicio.cs",
+              "ToolTip": "C:\\Users\\josem\\source\\repos\\ITM_AS_apiCambiosMonedas\\apiCambiosMoneda.Core\\Interfaces\\Servicios\\IMonedaServicio.cs",
+              "RelativeToolTip": "apiCambiosMoneda.Core\\Interfaces\\Servicios\\IMonedaServicio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T22:36:24.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MonedaServicio.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\source\\repos\\ITM_AS_apiCambiosMonedas\\apiCambiosMoneda.Aplicacion\\Servicios\\MonedaServicio.cs",
+              "RelativeDocumentMoniker": "apiCambiosMoneda.Aplicacion\\Servicios\\MonedaServicio.cs",
+              "ToolTip": "C:\\Users\\josem\\source\\repos\\ITM_AS_apiCambiosMonedas\\apiCambiosMoneda.Aplicacion\\Servicios\\MonedaServicio.cs",
+              "RelativeToolTip": "apiCambiosMoneda.Aplicacion\\Servicios\\MonedaServicio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T22:35:08.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MonedaControlador.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\source\\repos\\ITM_AS_apiCambiosMonedas\\apiCambiosMoneda.Presentacion\\Controllers\\MonedaControlador.cs",
+              "RelativeDocumentMoniker": "apiCambiosMoneda.Presentacion\\Controllers\\MonedaControlador.cs",
+              "ToolTip": "C:\\Users\\josem\\source\\repos\\ITM_AS_apiCambiosMonedas\\apiCambiosMoneda.Presentacion\\Controllers\\MonedaControlador.cs",
+              "RelativeToolTip": "apiCambiosMoneda.Presentacion\\Controllers\\MonedaControlador.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T22:35:01.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IPaisServicio.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\source\\repos\\ITM_AS_apiCambiosMonedas\\apiCambiosMoneda.Core\\Interfaces\\Servicios\\IPaisServicio.cs",
+              "RelativeDocumentMoniker": "apiCambiosMoneda.Core\\Interfaces\\Servicios\\IPaisServicio.cs",
+              "ToolTip": "C:\\Users\\josem\\source\\repos\\ITM_AS_apiCambiosMonedas\\apiCambiosMoneda.Core\\Interfaces\\Servicios\\IPaisServicio.cs",
+              "RelativeToolTip": "apiCambiosMoneda.Core\\Interfaces\\Servicios\\IPaisServicio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T22:42:34.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PaisServicio.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\source\\repos\\ITM_AS_apiCambiosMonedas\\apiCambiosMoneda.Aplicacion\\Servicios\\PaisServicio.cs",
+              "RelativeDocumentMoniker": "apiCambiosMoneda.Aplicacion\\Servicios\\PaisServicio.cs",
+              "ToolTip": "C:\\Users\\josem\\source\\repos\\ITM_AS_apiCambiosMonedas\\apiCambiosMoneda.Aplicacion\\Servicios\\PaisServicio.cs",
+              "RelativeToolTip": "apiCambiosMoneda.Aplicacion\\Servicios\\PaisServicio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T22:34:29.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PaisControlador.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\source\\repos\\ITM_AS_apiCambiosMonedas\\apiCambiosMoneda.Presentacion\\Controllers\\PaisControlador.cs",
+              "RelativeDocumentMoniker": "apiCambiosMoneda.Presentacion\\Controllers\\PaisControlador.cs",
+              "ToolTip": "C:\\Users\\josem\\source\\repos\\ITM_AS_apiCambiosMonedas\\apiCambiosMoneda.Presentacion\\Controllers\\PaisControlador.cs",
+              "RelativeToolTip": "apiCambiosMoneda.Presentacion\\Controllers\\PaisControlador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T22:34:20.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
